@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "lib": ["DOM", "ESNext"],
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "noImplicitAny": true,
     "noUnusedParameters": true,
     "sourceMap": true,

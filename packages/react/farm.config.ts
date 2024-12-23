@@ -1,5 +1,5 @@
+import path from 'node:path';
 import type { UserConfig } from '@farmfe/core';
-import path from 'path';
 import postcss from '@farmfe/js-plugin-postcss';
 function defineConfig(config: UserConfig): UserConfig {
   return config;
