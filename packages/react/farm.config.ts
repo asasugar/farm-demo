@@ -12,7 +12,7 @@ export default defineConfig({
 			index: './src/index.html'
 		},
 		output: {
-			path: 'build',
+			path: 'dist',
 			publicPath: '/',
 			targetEnv: 'browser'
 		},

@@ -6,6 +6,10 @@
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
 		"beauty": "pnpm biome format --write ./packages",
+		"dev:react": "pnpm --filter ./packages/react dev",
+		"dev:vue": "pnpm --filter ./packages/vue dev",
+		"build:react": "pnpm --filter ./packages/react build",
+		"build:vue": "pnpm --filter ./packages/vue build",
 		"prepare": "husky"
 	},
 	"keywords": [],

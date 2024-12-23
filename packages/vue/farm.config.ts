@@ -25,7 +25,7 @@ export default defineConfig({
 		// compilation options here
 		// persistentCache: false
 		output: {
-			path: 'build',
+			path: 'dist',
 			publicPath: '/',
 			targetEnv: 'browser'
 		},
