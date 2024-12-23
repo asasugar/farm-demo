@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": [
+      "unplugin-vue-router/client"
+    ]
+  },
+  "include": [
+    "farm.config.ts",
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "./typed-router.d.ts"
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
+  ],
+}
