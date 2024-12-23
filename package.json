@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "beauty": "pnpm biome format --write ./packages"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@farmfe/cli": "^1.0.4",
-    "@farmfe/core": "^1.6.0"
+    "@farmfe/core": "^1.6.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^13.0.3"
+  },
+  "lint-staged": {
+    "packages/**/*.ts": [
+      "npx biome check --no-errors-on-unmatched --files-ignore-unknown=true --apply"
+    ]
   }
 }
