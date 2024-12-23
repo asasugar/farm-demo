@@ -29,7 +29,8 @@
 	},
 	"lint-staged": {
 		"packages/**/*.{ts,tsx}": [
-			"pnpm beauty"
+			"pnpm beauty",
+			"git add ."
 		]
 	}
 }
