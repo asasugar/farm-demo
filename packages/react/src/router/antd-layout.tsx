@@ -10,7 +10,7 @@ import logo from '../assets/logo.png';
 const { Header, Content, Sider } = Layout;
 const items1: MenuProps['items'] = ['1', '2', '3'].map((key) => ({
 	key,
-	label: `nav ${key}`,
+	label: `nav ${key}`
 }));
 
 const items2: MenuProps['items'] = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
@@ -26,16 +26,16 @@ const items2: MenuProps['items'] = [UserOutlined, LaptopOutlined, NotificationOu
 				const subKey = index * 4 + j + 1;
 				return {
 					key: subKey,
-					label: `option${subKey}`,
+					label: `option${subKey}`
 				};
-			}),
+			})
 		};
-	},
+	}
 );
 
 export const AntdLayout: React.FC = () => {
 	const {
-		token: { colorBgContainer },
+		token: { colorBgContainer }
 	} = theme.useToken();
 	const navigate = useNavigate();
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -85,7 +85,7 @@ export const AntdLayout: React.FC = () => {
 							padding: 24,
 							margin: 0,
 							minHeight: 280,
-							background: colorBgContainer,
+							background: colorBgContainer
 						}}
 					>
 						<div>

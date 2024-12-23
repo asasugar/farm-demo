@@ -17,13 +17,13 @@ export const router = createBrowserRouter(
 						<div>
 							<img src={logo} width={200} />
 						</div>
-					),
+					)
 				},
-				...getRoutes(),
-			],
-		},
+				...getRoutes()
+			]
+		}
 	],
 	{
-		basename: '/',
-	},
+		basename: '/'
+	}
 );

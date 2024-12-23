@@ -1,29 +1,29 @@
 {
-  "name": "react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "farm start",
-     "build": "farm build",
-     "preview": "farm preview"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "antd": "^5.22.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.0.2"
-  },
-  "devDependencies": {
-    "@farmfe/js-plugin-postcss": "^1.11.0",
-    "@farmfe/plugin-react": "^1.2.6",
-    "@farmfe/plugin-sass": "^1.1.0",
-    "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2",
-    "postcss-pxtorem": "^6.1.0",
-    "react-refresh": "^0.16.0"
-  }
+	"name": "react",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "farm start",
+		"build": "farm build",
+		"preview": "farm preview"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"antd": "^5.22.5",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-router-dom": "^7.0.2"
+	},
+	"devDependencies": {
+		"@farmfe/js-plugin-postcss": "^1.11.0",
+		"@farmfe/plugin-react": "^1.2.6",
+		"@farmfe/plugin-sass": "^1.1.0",
+		"@types/react": "^19.0.2",
+		"@types/react-dom": "^19.0.2",
+		"postcss-pxtorem": "^6.1.0",
+		"react-refresh": "^0.16.0"
+	}
 }
