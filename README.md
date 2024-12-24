@@ -1,2 +1,2 @@
 # farm-demo
-Farm 的demo 项目
+Farm 的 demo 项目： React19 + Vue3
